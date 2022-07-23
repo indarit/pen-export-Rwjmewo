@@ -1,0 +1,10 @@
+Exercise 5: Create a repo on GitHub that contains a markdown file that answers these questions:
+1. How do you see the files changed within each commit from git log?
+Git log lista las confirmaciones hechas sobre ese repositorio en orden cronológico inverso. Es decir, las confirmaciones más recientes se muestran al principio.
+
+2. How do you see the contents of what changed within each file from the git log?
+Con el comando git diff , mostrará el contenido que se ha añadido al área de ensayo, es decir, los cambios que se incluirán en el historial si se hace commit.
+
+3. What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+
+HEAD es muy simple: se refiere al commit en el que está tu repositorio posicionado en cada momento. Por regla general HEAD suele coincidir con el último commit de la rama en la que estés, ya que habitualmente estás trabajando en lo último. Pero si te mueves hacia cualquier otro commit anterior entonces el HEAD estará más atrás.
